@@ -1,0 +1,30 @@
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+    margin:0;padding:0;border:0;
+}
+body{
+    background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"微软雅黑","SimSun","宋体","Arial Narrow";
+}
+ul,ol{
+    list-style-type:none;
+}
+select,input,img,select{
+    vertical-align:middle;
+}
+a{text-decoration:none;}
+a:link{color:#009;}
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
+.top{ height: 100px; width: 100%; background: #fff;}
+.center{height: 493px; width: 100%; background: #dcdcdc; border: 1px 0 1px 0 #c8c8c8; }
+.main{height: 100%; width: 1290px; border: 1px #000;margin: 0 auto; overflow: hidden;}
+.logo{height: 100%; width: 434px; background: url('../images/logo.png'); float: left;}
+.pic{ background: url('../images/index.png') no-repeat; height: 493px; width: 846px; float: left;}
+.pic .slogan {width: 24px; padding: 124px 8px 124px 12px; font-size: 18px;  color: #fff; -ms-word-wrap: break-word; word-wrap: break-word; display: none;}
+.sep{height: 14px; width: 100%; background: #fff;}
+.footer{height: 80px; width: 100%; background: #a0a0a0; border: 1px 0 1px 0 #c8c8c8;}
+.footer .address{ float: right; width: 430px;}
+.footer .address span{ display: block; font-size: 1.2em; color: #fff; margin:2px 0 2px 0;}
+.footer img.tea_leaf{ width:14px; height: 14px;}
+.footer .shop { text-decoration: none; color: #fff;}
+.footer .shop:visited{ text-decoration: none; color: #fff; }
