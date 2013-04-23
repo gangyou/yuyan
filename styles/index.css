@@ -21,6 +21,7 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
 .logo{height: 100%; width: 434px; background: url('../images/logo.png'); float: left;}
 .pic{ background: url('../images/index.png') no-repeat; height: 493px; width: 846px; float: left;}
 .pic .slogan {width: 24px; padding: 124px 8px 124px 12px; font-size: 18px;  color: #fff; -ms-word-wrap: break-word; word-wrap: break-word; display: none;}
+.pic .slogan .cha{display: block; position: relative; left: -3px; top: 3px; }
 .sep{height: 14px; width: 100%; background: #fff;}
 .footer{height: 80px; width: 100%; background: #a0a0a0; border: 1px 0 1px 0 #c8c8c8;}
 .footer .address{ float: right; width: 430px;}
