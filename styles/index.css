@@ -24,7 +24,8 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
 .pic .slogan .cha{display: block; position: relative; left: -3px; top: 3px; }
 .sep{height: 14px; width: 100%; background: #fff;}
 .footer{ height: 80px; width: 100%; background: #a0a0a0; border: 1px 0 1px 0 #c8c8c8;}
-.footer .weixin { float: right; margin-right: 4px; height: 80px; width: 80px; background: url('../images/qrcode.jpg') no-repeat;}
+.footer .weixin { float: right; margin-right: 4px;}
+.footer .weixin img { height: 80px; width: 80px; }
 .footer .address{ float: right; width: 430px;}
 .footer .address span{ display: block; font-size: 1.2em; color: #fff; margin:2px 0 2px 0;}
 .footer img.tea_leaf{ width:14px; height: 14px;}
