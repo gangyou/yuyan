@@ -15,25 +15,26 @@ a{text-decoration:none;}
 a:link{color:#009;}
 a:visited{color:#800080;}
 a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
-.top{ height: 100px; width: 100%; background: #fff;}
-.center{height: 493px; width: 100%; background: #dcdcdc; border: 1px 0 1px 0 #c8c8c8; }
-.main{height: 100%; width: 1290px; border: 1px #000;margin: 0 auto; overflow: hidden;}
-.logo{height: 100%; width: 434px; background: url('../images/logo.png'); float: left;}
-.pic{ background: url('../images/index.png') no-repeat; height: 493px; width: 846px; float: left;}
-.pic .slogan {width: 24px; padding: 124px 8px 124px 12px; font-size: 18px;  color: #fff; -ms-word-wrap: break-word; word-wrap: break-word; display: none;}
-.pic .slogan .cha{display: block; position: relative; left: -3px; top: 3px; }
-.sep{height: 14px; width: 100%; background: #fff;}
-.footer{ height: 80px; width: 100%; background: #a0a0a0; border: 1px 0 1px 0 #c8c8c8;}
-.footer .weixin { float: right; margin-right: 4px;}
-.footer .weixin img { height: 80px; width: 80px; }
-.footer .address{ float: right; width: 430px;}
-.footer .address span{ display: block; font-size: 1.2em; color: #fff; margin:2px 0 2px 0;}
-.footer img.tea_leaf{ width:14px; height: 14px;}
-.footer .shop { text-decoration: none; color: #fff;}
-.footer .shop:visited{ text-decoration: none; color: #fff; }
+.top{ height: 60px; width: 100%; background: #fff;}
+.center{height: 441px;  background: #959595; border: 1px 0 1px 0 #c8c8c8;}
+
+.main{height: 441px; width: 1200px; border: 1px #000; margin: 0 auto; overflow: hidden;}
+.main .space { width: 40px; height: 100%; float: left;}
+.main .logo{height: 100%; width: 350px; background: url('../images/logo.png'); float: left;}
+.main .sep{ height: 100%; width: 12px; background: #dcdcdc; float: left;}
+.main .pic{ background: url('../images/index.png') no-repeat; height: 441px; width: 760px;float: left;}
+.main .pic .slogan {width: 24px; padding: 52px 0 0 8px; font-size: 1.2em; font-weight: 500;  color: #fff; -ms-word-wrap: break-word; word-wrap: break-word; display: none;}
+.main .pic .slogan .cha{display: block; position: relative; left: -3px; top: 3px; }
+
+.sep {height: 5px; width: 100%; background: #fff;}
+
+.footer{ height: 60px; width: 100%; background: #a0a0a0; border: 1px 0 1px 0 #c8c8c8;}
+.footer .address {color: #fff; font-weight: 525; font-size: 1.4em; font-family: Arial; display: block; float: right; padding-top: 30px;}
+.footer .footwrap { width: 1120px; margin: 0 auto; height: 50px;}
+.footer .redline { height: 2px; width: 100%; background: #7e0505;}
 
 /*about us*/
-.nav{ height: 100px; width: 100%;}
+.nav{ height: 48px; width: 100%;}
 .about{ background: #959595; height: 400px; width: auto;}
 .about .blank { height: 100%; width: 120px; float: left;}
 .about .before_about { width: 40px; height: 100%; float: left;}
